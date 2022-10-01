@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.superior{
+    color: #000;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 12.3px;
+    letter-spacing: 2.5px;
+    padding: 12px 0px;
+    font-style: normal;
+    /* font-weight: bold; */
+    /* opacity: 0.5; */
+
+}
+
+.col{
+    position: sticky;
+    top: 0px;
+    color: #000;
+    background-color: rgb(168, 165, 165);
+    text-align: center;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    border: 1px solid #ffffff;
+    padding: 5px 0px;
+    letter-spacing: .5px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+
+.col:hover{
+    background: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-carrusel1{
+    margin: 5px 10px;
+}
+.carrusel2{
+    margin: 50px 10px;
+    width: 500px;
+    height: 700px;
+}
+.carrusel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bestS{
+    margin-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+    letter-spacing: 5px;
+    opacity: .9;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.bestSinferior {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.carrusel3{
+    width: 300px;
+    height: 290px;
+    margin: 5px 30px;
+    object-fit: cover;
+}
+
+.container-carrusel2{
+    margin: 10px 100px;
+}
+
+.container-botton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.boton{
+  font-size: 15px;
+  background-color: #282828;
+  color: #fff;
+  border-color: #282828;
+  position: relative;
+  display: inline-block;
+  border: 1px solid transparent;
+  letter-spacing: .2em;
+  height: 50px;
+  width: 260px;
+}
+
+.container-women{
+
+}
+
+.women{
+
+}
+
+footer{
+    border: 1px solid blue;
+    margin: 20px 0px;
+}
+/*TABLET*/
+@media (min-width:481px) and (max-width: 1023px ) {
+    html{
+        font-size: 55%;
+    }
+    body{
+        padding: 0%;
+        text-align: center;
+    }
+}
+/*CELULAR*/
+@media (max-width:480px){
+    html{
+        font-size: 55%;
+    }
+    body div{
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 1rem;
+    }
+    img{
+      object-fit: cover;
+    }
+}
+
+
